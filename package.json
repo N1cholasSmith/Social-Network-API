@@ -1,0 +1,32 @@
+{
+  "name": "Social-Network-API",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node seeds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N1cholasSmith/Social-Network-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N1cholasSmith/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/N1cholasSmith/Social-Network-API#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.1.4"
+  },
+   "devDependencies": {
+     "nodemon": "^2.0.15"
+  }
+}
