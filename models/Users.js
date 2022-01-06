@@ -14,7 +14,7 @@ const UsersSchema = new Schema(
             unique:true, 
             match: [
             //    REGEX Validates the Correct Email ==========================
-               /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(v)
+               /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
             ]
         },
         thoughts: [
