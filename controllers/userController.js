@@ -12,7 +12,7 @@ const usersController = {
     getAllUsers(req, res) {
         Users.find({})
         // populate users thoughts
-        .populate({path: 'thoughts', select: '-__v'})
+        // .populate({path: 'thoughts', select: '-__v'})
         // populate user friends
         .populate({path: 'friends', select: '-__v'})
         .select('-__v')
