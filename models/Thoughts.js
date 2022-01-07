@@ -12,6 +12,7 @@ const ReactionsSchema = new Schema(
             type: String,
             required: true,
             maxlength: 280,
+            minLength: 1,
         },
         username: {
           type: String,
@@ -19,9 +20,7 @@ const ReactionsSchema = new Schema(
         },
         createdAt: {
           type: Date,
-          default: `${moment(Date.now()).format("MMM Do YYYY")} at ${moment(
-            Date.now()
-            ).format("hh a")}`,   
+          default: new Date ()   
         }
       },
       {
@@ -44,9 +43,7 @@ const ThoughtsSchema = new Schema(
         },
         createdAt: {
             type: Date,
-            default: `${moment(Date.now()).format("MMM Do YYYY")} at ${moment(
-              Date.now()
-              ).format("hh a")}`,   
+            default: new Date ()    
           },
         username: {
             type:String,
@@ -57,7 +54,6 @@ const ThoughtsSchema = new Schema(
     },
     {
         toJSON: {
-            virtuals:true,
             getters: true
         },
         id: false
