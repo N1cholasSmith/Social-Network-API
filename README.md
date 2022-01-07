@@ -16,6 +16,7 @@
 ## 📝 Description
 This is a Social Network back end application which is configured with working Express API & Mongoose Object Data Modeling to interact with a MongoDB database.The aim of this application is to demonstrate my understanding of how to build and structure an API for a social network. 
 
+https://user-images.githubusercontent.com/88865022/148537800-be96b27d-86da-4a01-9ea9-f56e1e678729.mp4
 
 
 <a name="technologies"></a>
